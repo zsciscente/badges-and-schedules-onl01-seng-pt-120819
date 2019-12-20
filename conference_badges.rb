@@ -29,8 +29,7 @@ array =[]
   batch_badge_creator(attendees).each do |name|
     puts name
   end
-  assign_rooms(attendees).each do |name|
-    puts name
+  assign_rooms(attendees).each do |i|
+    puts i
   end
- puts printer(attendees)
 end
